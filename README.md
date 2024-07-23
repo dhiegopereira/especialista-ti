@@ -4,6 +4,7 @@
 </details>
 <details>
 <summary>1. Banco de dados:</summary>
+
 - Índices
     - Vantagens: 
         - Melhora o desempenho das consultas, pois permite a localização rápida dos registros.
