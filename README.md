@@ -1,6 +1,9 @@
 ## Conteúdos: 
 
-1. Banco de dados:
+
+</details>
+<details>
+<summary>1. Banco de dados:</summary>
 - Índices
     - Vantagens: 
         - Melhora o desempenho das consultas, pois permite a localização rápida dos registros.
@@ -45,7 +48,9 @@
         - Podem tornar o código mais complexo e difícil de depurar.
         - Podem causar problemas de desempenho se mal utilizados.
 
-2. Design Patterns:
+</details>
+<details>
+<summary>2. Design Patterns:</summary>
 
 ### Singleton
 **Definição:** O padrão Singleton garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso a essa instância.
@@ -143,7 +148,9 @@ public class Main {
     }
 }
 ```
-3. Arquitetura
+</details>
+<details>
+<summary>3. Arquitetura</summary>
 
 ### Arquitetura de software
 **Definição:** Domain-Driven Design (DDD) é uma abordagem de design de software que enfatiza a colaboração entre especialistas de domínio e desenvolvedores para criar um modelo de domínio que reflete com precisão os processos e regras de negócios.
@@ -181,7 +188,9 @@ public class Main {
 1. Hibernate (para Java)
 2. Entity Framework (para .NET)
 
-4. Programação concorrente
+</details>
+<details>
+<summary>4. Programação concorrente</summary>
 
 ### Thread
 **Definição:** Uma thread é a menor unidade de processamento que pode ser executada de forma independente por um sistema operacional. Threads são usadas para executar tarefas simultaneamente dentro do mesmo processo.
@@ -213,7 +222,9 @@ public class Main {
 - Escalabilidade automática baseada na demanda.
 - Simplificação do desenvolvimento e implantação de aplicações.
 
-5. DevOps
+</details>
+<details>
+<summary>5. DevOps</summary>
 
 ### CI/CD
 **Definição:** CI/CD (Continuous Integration/Continuous Deployment) é um conjunto de práticas de DevOps que visa automatizar e melhorar o processo de desenvolvimento, integração e entrega de software. CI se refere à integração contínua, onde o código é frequentemente integrado e testado. CD se refere à entrega contínua ou implantação contínua, onde o código é automaticamente implantado em ambientes de produção.
@@ -250,7 +261,9 @@ public class Main {
   - Escalabilidade horizontal de aplicações.
   - Alta disponibilidade e recuperação automática de falhas.
 
-6. Segurança da Informação
+</details>
+<details>
+<summary>6. Segurança da Informação</summary>
 
 ### Criptografia SSL/TLS
 **Definição:** SSL (Secure Sockets Layer) e TLS (Transport Layer Security) são protocolos criptográficos que fornecem comunicação segura pela internet. Eles garantem que os dados transmitidos entre o cliente e o servidor sejam criptografados e protegidos contra interceptação e adulteração.
@@ -286,7 +299,9 @@ public class Main {
   - Proteção de dados transmitidos sobre redes públicas.
   - Acesso seguro a recursos internos da empresa.
 
-7. Testes
+</details>
+<details>
+<summary>7. Testes</summary>
 
 ### As 3 leis do TDD
 **Definição:** As 3 leis do Test-Driven Development (TDD) são princípios que guiam o desenvolvimento orientado a testes. Elas são:
@@ -338,7 +353,9 @@ public class Main {
 - Clareza nos resultados dos testes.
 - Escrita de testes no momento apropriado do ciclo de desenvolvimento.
 
-8. POO
+</details>
+<details>
+<summary>8. POO</summary>
 
 ### Encapsulamento
 **Definição:** Encapsulamento é o princípio de esconder os detalhes internos de um objeto e expor apenas o que é necessário através de métodos públicos. Isso protege o estado interno do objeto contra modificações não controladas.
@@ -514,3 +531,4 @@ public class MinhaThread extends Thread {
 - public: O membro é acessível de qualquer lugar.
 - private: O membro é acessível apenas dentro da classe onde foi declarado.
 - static: O membro pertence à classe, não a instâncias individuais.
+</details>
